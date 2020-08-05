@@ -4,8 +4,8 @@
 ### Autor: Gabriel Marcos Magalhães
 ###==================================================================================
 
-from unittest import TestCase, main
-from valida_cep import val_cep
+from unittest import TestCase, main # biblioteca utilizada nos TDDs
+from valida_cep import val_cep # função responsável pela validação dos CEPs
 
 class TesteCEPValido(TestCase):
     # Verifica se existe algum CEP a ser validado
