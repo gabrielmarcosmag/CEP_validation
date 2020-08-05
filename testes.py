@@ -1,13 +1,14 @@
-###==================================================================================
-### Neste arquivo estão escritos os TDDs utilizados na elaboração da função
-### responsável por validar os CEPs
-### Autor: Gabriel Marcos Magalhães
-###==================================================================================
+"""@autor: Gabriel Marcos Magalhães"""
 
 from unittest import TestCase, main # biblioteca utilizada nos TDDs
 from valida_cep import val_cep # função responsável pela validação dos CEPs
 
 class TesteCEPValido(TestCase):
+    """
+    Nesta classe estão escritos os TDDs utilizados na elaboração da função
+    responsável por validar os CEPs
+    """
+
     # Verifica se existe algum CEP a ser validado
     def teste_cep_vazio(self):
         cep_entrada = ''
