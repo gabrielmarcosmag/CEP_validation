@@ -14,7 +14,6 @@ def validate_cep(cep):
     if(re.match(r'^[1-9]\d{5}$',cep) == None): return False
 
     #Verifica se existem digitos alternados repetitivos em par
-    for i in range(4):
-        if(cep[i] == cep[i+2]): return False
+    if(re.match(r'.*(\d).\1.*', cep) != None): return False
 
     return True
