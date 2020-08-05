@@ -55,4 +55,5 @@ class TesteCEPValido(TestCase):
         retorno_esperado = True
         self.assertEqual(validate_cep(cep_entrada),retorno_esperado)
 
-main()
+if __name__ == '__main__':
+    main()
