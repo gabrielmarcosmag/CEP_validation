@@ -42,4 +42,16 @@ class TesteCEPValido(TestCase):
         retorno_esperado = 'Invalido'
         self.assertEqual(val_cep(cep_entrada),retorno_esperado)
 
+    #Verifica se existem dígitos alternados repetitivos
+    def teste_digitos_alternados_repetitivos(self):
+        cep_entrada = '121426'
+        retorno_esperado = 'Invalido'
+        self.assertEqual(val_cep(cep_entrada),retorno_esperado)
+
+    # Realiza a verificação de um CEP válido
+    def teste_cep_valido(self):
+        cep_entrada = '523563'
+        retorno_esperado = 'Valido'
+        self.assertEqual(val_cep(cep_entrada),retorno_esperado)
+
 main()
