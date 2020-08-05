@@ -1,5 +1,5 @@
 """@autor: Gabriel Marcos Magalhães"""
-from valida_cep import val_cep
+from valida_cep import validate_cep
 
 """
 Neste arquivo está um programa que utiliza a função val_cep para
@@ -10,7 +10,7 @@ requisitos. Caso não atenda, imprime "CEP inválido"
 """
 print("Digite o CEP (somente números):")
 cep = input() # Lê o CEP fornecido pelo usuário
-if val_cep(cep) == "Valido":
+if validate_cep(cep):
     print("CEP válido")
 else:
     print("CEP inválido")
