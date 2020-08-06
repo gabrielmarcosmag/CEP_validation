@@ -30,5 +30,5 @@ OK
 
 ## Opção 2: Validação de um CEP
 
-Para realizar a validação de um CEP escolhido pelo usuário basta executar o arquivo *principal.py*.
+Para realizar a validação de um CEP escolhido pelo usuário basta executar o arquivo *valida_cep.py*.
 Será solicitado que o usuário insira o CEP que deseja validar e logo após será exibido na tela o resultado **CEP válido** caso o CEP atenda aos padrões exigidos ou **CEP inválido** caso o CEP não atenda tais padrões.
