@@ -5,8 +5,8 @@ def validate_cep(cep):
     """
     Função responsável por realizar a validação de um CEP fornecido
     Argumento: CEP a ser validado (string)
-    Retorno: Valido se o CEP estiver de acordo e Invalido
-            caso não esteja (string)
+    Retorno: True se o CEP estiver de acordo ou False
+            caso não esteja (boolean)
     """
 
     # Validação do formato do CEP: RegEx utilizada para determinar que o CEP não deve
